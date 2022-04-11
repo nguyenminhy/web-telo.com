@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+	<style>
+		*{margin: 0px;
+		padding: 0px;
+		}
+		body{font-family: sans-serif;
+		color: white;
+		}
+		#td{
+			background: blue;
+			width: 1200px;
+			height: 50px;
+		}
+		.td1{
+			padding-left: 0px;
+			float: left;
+		}
+		.td2{
+			padding-left: 400px;
+			padding-top: 10px;
+		}
+		#menu{
+			width: 1200px;
+			height: 40px;
+			background: #3B78E1;
+		}
+		#menu ul{
+			list-style-type: none;
+			background: #0F0;
+			text-align: center;
+		}
+		#menu ul li{
+			color: #000;
+			display: inline-table;
+			width: 120px;
+			height: 40px;
+			line-height: 40px;
+			position: relative;
+		}
+		#menu ul li a{
+			color: #fff;
+			text-decoration: none;
+			display: block;
+		}
+		#menu ul li a:hover{background: #ff0;
+		color: black;}
+		#menu ul li>.menucon {display: none;position: absolute;}
+		#menu ul li:hover .menucon{display: block;}
+		
+		
+	</style>
+
+<body>
+	<div id="td">
+	<div class="td1"><img src="tải xuống.jpg" width="50px" height="50px"></div>
+	<h4 class="td2">Anh Ý pro alo alo<br>Ý đây Ý đây Hí Hí Hí</h4>
+	</div>
+	<div id="menu">
+		<ul>
+		<li><a href="#">Item 1</a></li>
+		<li><a href="#">Item 2
+			<ul class="menucon">
+				<li><a href="#">Item 1</a></li>
+				<li><a href="#">Item 1</a></li>
+				<li><a href="#">Item 1</a></li>
+				<li><a href="#">Item 1</a></li>
+			</ul>
+			</a></li>
+		<li><a href="#">Item 3</a></li>
+		<li><a href="#">Item 4</a></li>
+		<li><a href="#">Item 5</a></li>
+			<input text="search" placeholder="Tìm kiếm..." width="900px">
+		</ul>
+	</div>
+</body>
+</html>
